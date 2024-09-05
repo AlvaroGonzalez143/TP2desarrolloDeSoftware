@@ -1,0 +1,57 @@
+.BOX{
+background-color:  beige;
+ padding: 10pem;
+text-align: center;
+align-items: center;
+ margin-right: 10%;
+border-radius: 3%;
+ border: 20px;
+ border-color: black;
+ border: 5px solid ;
+ box-shadow: 3px 3px 3px 0px blue;
+}
+.text1{
+    font-size: 20px;
+    color: chartreuse;
+ text-align: center;
+ 
+}
+.BOX2{
+    background-color:  rgb(182, 149, 180);
+     padding: 10pem;
+    text-align: center;
+    align-items: center;
+     margin-right: 10%;
+    border-radius: 3%;
+     border: 20px;
+     border-color: black;
+     border: 5px solid ;
+    }
+    .FORM{
+        background-color:  rgb(181, 164, 180);
+     padding: 10pem;
+    text-align: center;
+    align-items: center;
+     margin-right: 10%;
+    border-radius: 3%;
+     border: 20px;
+     border-color: black;
+     border: 5px solid ;
+     box-shadow: 3px 3px 3px 0px blue;
+    }
+    .BOX3{
+        width: 200px;
+  height: 100px;
+  font-size: 20px;
+  background-color: blue;
+  animation: miAnimacion 5s infinite;
+  text-align: center;
+    }
+    @keyframes miAnimacion {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(400px);
+        }
+      }
